@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
+
 setup(
     name = "BitTorrent-bencode",
     version = "5.0.8",
-    packages = find_packages(),
-
+    py_modules = 'bencode',
     # metadata for upload to PyPI
     author = "Bram Cohen",
     author_email = "bugs@bittorrent.com",
