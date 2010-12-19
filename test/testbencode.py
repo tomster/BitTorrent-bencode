@@ -10,9 +10,6 @@ __date__ = "$Date: 2007/07/29 $"
 __copyright__ = "Copyright (c) 2007 Tom Lazar"
 __license__ = "BitTorrent Open Source License"
 
-import sys
-sys.path = ['.',] + sys.path #HACK: enables importing from `bencode`
-
 from bencode import bencode
 from bencode import bdecode
 from bencode import BTFailure
