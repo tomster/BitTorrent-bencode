@@ -5,3 +5,17 @@ It currently uses the implementation from BitTorrent Version 5.0.8, the file `be
 It also contains some tests and a benchmark.
 
 Tom Lazar, tom@tomster.org
+
+HISTORY
+=======
+
+5.0.8.1 - 2010-12-19
+--------------------
+
+ - re-release containing packaging fixes. should now install on current
+   versions of setuptools and distribute (also tested with Python 2.6 now)
+
+5.0.8 - 2007-07-29
+------------------
+
+ - original release
