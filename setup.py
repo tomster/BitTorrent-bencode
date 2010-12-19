@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name = "BitTorrent-bencode",
     version = "5.0.8.1",
-    py_modules = 'bencode',
+    py_modules = ['bencode', 'BTL'],
     # metadata for upload to PyPI
     author = "Bram Cohen",
     author_email = "bugs@bittorrent.com",
